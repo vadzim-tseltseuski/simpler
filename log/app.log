@@ -1,0 +1,6 @@
+I, [2022-07-18T00:41:46.161304 #76428]  INFO -- : {"Request"=>"GET /tests/", "Handler"=>"TestsController#index", "Parameters"=>{}, "Response"=>"201 [text/plain]"}
+I, [2022-07-18T00:41:48.824912 #76428]  INFO -- : {"Request"=>"GET /tests/1", "Handler"=>"TestsController#show", "Parameters"=>{:id=>"1"}, "Response"=>"200 [text/plain]"}
+I, [2022-07-18T00:42:09.827612 #76428]  INFO -- : {"Request"=>"GET /tests/1", "Handler"=>"TestsController#show", "Parameters"=>{"param1"=>"123", "params2"=>"222", :id=>"1"}, "Response"=>"200 [text/plain]"}
+I, [2022-07-18T00:45:25.312077 #76605]  INFO -- : {"Request"=>"GET /tests/", "Handler"=>"TestsController#index", "Parameters"=>{}, "Response"=>"201 [text/html] tests/index.html.erb"}
+I, [2022-07-18T00:47:16.256395 #76688]  INFO -- : {"Request"=>"GET /tests/", "Handler"=>"TestsController#index", "Parameters"=>{}, "Response"=>"201 [text/html] tests/index.html.erb"}
+I, [2022-07-18T00:47:19.948139 #76688]  INFO -- : {"Request"=>"GET /tests/1", "Handler"=>"TestsController#show", "Parameters"=>{:id=>"1"}, "Response"=>"200 [text/plain]"}
